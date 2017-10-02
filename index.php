@@ -1,14 +1,10 @@
 <?php
-function impair($num)
+$number = 0;
+for ($number = 0; $number <=300; $number++)
 {
- if($num % 2 != 0)
-  return true;
- return false;
+  if ($number % 2 == 1)
+  {
+    echo $number. ' ';
+  }
 }
-
-for($i= 0; $i <= 300; $i++)
-{
- if(impair($i))
-  echo $i;
- }
  ?>
